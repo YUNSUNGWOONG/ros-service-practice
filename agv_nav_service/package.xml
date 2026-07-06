@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>agv_nav_service</name>
+  <version>0.1.0</version>
+  <description>항만 물류 로봇(AGV) 이동 구역 안전 승인 서비스 실습 패키지 (ROS 2 Humble)</description>
+
+  <maintainer email="2170004487ii@gmail.com">student</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- 빌드 도구: 커스텀 인터페이스(ament_cmake) + 파이썬 노드(ament_cmake_python) -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <!-- 실행 의존성: 파이썬 클라이언트 라이브러리 -->
+  <depend>rclpy</depend>
+
+  <!-- 커스텀 .srv 메시지 생성/실행 의존성 -->
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

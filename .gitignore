@@ -1,0 +1,18 @@
+# ROS 2 / colcon 빌드 산출물
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+
+# 에디터 / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
