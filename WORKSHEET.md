@@ -253,6 +253,6 @@ ros2 service call /check_goal agv_nav_service/srv/CheckNavGoal "{target_x: 50.0,
 
 ### 📎 참고
 
-- 설계 배경/전체 개요: [`docs/OVERVIEW.md`](docs/OVERVIEW.md)
+- 설계 배경/전체 개요: [`README.md`](README.md)
 - 정답 코드: [`solution/`](solution/)
 - ROS 2 공식 튜토리얼: *Writing a simple service and client (Python)* — docs.ros.org (Humble)
